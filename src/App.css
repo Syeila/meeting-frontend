@@ -1,0 +1,76 @@
+/* src/App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.rooms-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.rooms-table th, .rooms-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.rooms-table th {
+  background-color: #f4f7fc;
+}
+
+.rooms-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.booking-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.booking-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.booking-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #45a049;
+}
